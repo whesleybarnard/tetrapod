@@ -1,0 +1,25 @@
+---------------
+control tower
+---------------
+login.
+show dashboard of nodes.
+select 2 nodes to calc the shortest path.
+shuffle - kill old nodes and rebuild nodes with new links to each other.
+visual of nodes being built and coming online.
+visual of pathfinding process.
+
+---------------
+nodes
+---------------
+
+---------------
+learn
+---------------
+learn more k8s.
+learn go.
+check out k8s operators.
+
+---------------
+other
+---------------
+all nodes are actual k8s pods.
