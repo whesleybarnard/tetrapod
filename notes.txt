@@ -20,6 +20,15 @@ learn go.
 check out k8s operators.
 
 ---------------
+tools
+---------------
+go
+k8s
+minikube
+react
+bulma
+
+---------------
 other
 ---------------
 all nodes are actual k8s pods.
