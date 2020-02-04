@@ -1,0 +1,11 @@
+go get -u k8s.io/client-go@v0.17.0
+
+cp ~/.kube/config _kubeconfig
+cp ~/.minikube/ca.crt .
+cp ~/.minikube/client.crt .
+cp ~/.minikube/client.key .
+
+./p1 -kubeconfig /workspaces/tetrapod/prototypes/p1/_kubeconfig
+
+go run dodo.go -kubeconfig /workspaces/tetrapod/prototypes/p1/k8s_config/config
+go run dodo2.go -kubeconfig /workspaces/tetrapod/prototypes/p1/k8s_config/config
